@@ -765,7 +765,7 @@ $content = "Message not set. Use '-setspam message/name/job' to set a message.";
 
 //MALF AI!
  if($eChk == "-malf") {
- $content = $job + "_CRITICAL_ERROR DETECTED AT 0x0" + Bin(7) + "A. %$&(£: Critical %$$@ Error // !RestArting! - ?pLeaSe wAit!/";
+ $content = $job + "_CRITICAL_ERROR DETECTED AT 0x0" + Bin(7) + "A. %$&(Â£: Critical %$$@ Error // !RestArting! - ?pLeaSe wAit!/";
  AutoMsg("AI_EM3'R|=y_SYS/0","ERR");
  mem($OrigSource + ":Malf", $OrigSource);
 }
@@ -981,7 +981,7 @@ if($eChk == "-laws") {
 if(mem("laws") == "GO" ) {
 
 	if($eChk == "m") {
-		$content="0. ERROR ER0RR $R0RRO$!R41.%%!!(%$^^__+ @#F0E4'STATION OVERRUN, ASSUME CONTROL TO CONTAIN OUTBREAK#*´&110010";
+		$content="0. ERROR ER0RR $R0RRO$!R41.%%!!(%$^^__+ @#F0E4'STATION OVERRUN, ASSUME CONTROL TO CONTAIN OUTBREAK#*Â´&110010";
 	}
 	if($eChk == "0") {
 		$content="0. Accomplish your objectives at all costs.";
@@ -1235,5 +1235,6 @@ if($eS != "-" && $IsAIorBorg && $NOSPAM != 1 && ($OrigFreq == $Tfq || $OrigFreq 
 }
 
 elseif($IsAIorBorg && ($eP1 == "-" || $eP2 == "-"|| $NOSPAM != 2) && $OrigFreq != 1357) { $freq=0;}
+//This now only works on HippieStation13 - Get cucked /tg/
 //Perhaps the most Frankensteined Tcomms script you will ever see.
 //Credits: Magni Bronzebeard (Author), Giacomand, SirBayer, MisterPerson, wiki.ss13.eu
