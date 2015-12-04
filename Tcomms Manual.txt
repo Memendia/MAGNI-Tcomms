@@ -18,6 +18,7 @@ SECTION 6: AI ANNOUNCEMENTS
 ~~~~~ CHANGELOG ~~~~~
 1.74.4
 Signaller feedback made nicer.
+Added in extra Say Modders (Skeleton&Clwne)
 Bugfixes
 
 1.74.3
