@@ -1,10 +1,13 @@
-// M.A.G.N.I._TCOMMS_MODULE
+﻿// M.A.G.N.I._TCOMMS_MODULE
 $VERSION = "1.74.4"; /*
 
 AUTH_USAGE: NT Rated AI units, NTSL Licensed Crew
 
  Please view http://pastebin.com/jtKjF941 for instructions.
 */
+
+
+//TEST EDIT IGNORE ME
 
 $Tfq = 1441;
 $Pfq = 1447;
